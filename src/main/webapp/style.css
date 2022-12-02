@@ -1,0 +1,204 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+body{
+    padding-top: 30px;
+   
+}
+
+.background{
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    box-shadow: 3px 3px 30px 8px #000000;
+    padding: 30px 0;
+    border-radius: 20px;
+    
+}
+
+.blood{
+    
+    line-height: 47px;
+   
+    color: #FF0000;
+}
+.blood h1{
+    font-family: Roboto;
+    
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.sign{
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Operator Mono';
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.input-box{
+    margin-bottom: 8px;
+    height: 60px;
+
+}
+.input-box .input{
+    width: 300px;
+    height: 40px;
+    border-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    font-size: 20px;
+    padding-left: 18px ;
+}
+
+
+ .input-box .radio{
+    width: 45px;
+    height: 25px;
+    margin-top: 5px;
+    margin-bottom: 8px;
+   
+} 
+.input-box .radio-err{
+    box-sizing: border-box;
+    border-radius: 5px 5px 5px 5px;
+   
+}
+
+  
+.input-box  .small{
+    font-size: 25px;
+    
+}
+
+.input-box .btn1{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Operator Mono';
+    background-color:transparent;
+    color: red;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-right: 20px;
+    border: 2px solid red;
+    
+    
+}
+.input-box .btn1:hover{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Operator Mono';
+    background-color:red;
+    color: floralwhite;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-right: 20px;
+    
+    
+    
+    
+}
+.input-box .btn1:active{
+    margin-top: 20px;
+    width: 150px;
+    font-size: 25px;
+    font-family: 'Operator Mono';
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+    padding-right: 20px;
+    box-shadow: inset 1px 1px 5px 0px black;
+    border: 0px solid red;
+    
+}
+p{
+    font-size: 20px;
+}
+p a{
+    text-decoration: none;
+   
+    font-weight: bolder;
+    font-family: 'Operator Mono';
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+p a:hover{
+    color: #FF0000;
+}
+
+/* Error  Pringting  by adding class err */
+
+.input-box.err .input{
+    border: 2px solid red;
+ }
+ 
+ .input-box.err  .error-try{
+ 
+     width: 280px;
+    padding-bottom: 1px;
+     margin-left: 145px;
+     box-shadow:  0px 1px 1px 0px  #000000;
+     border-radius: 0px 0px 5px 5px;
+     
+     
+     
+ }
+ .input-box.err .radio-err{
+     border-radius: 5px;
+ }
+ .input-box.err  .error-try small{
+ 
+     color: #FF0000;
+     font-size: 12px;
+     font-family: 'Operator Mono';
+ 
+     
+     
+ }
+small{
+ 
+     color: #FF0000;
+     font-size: 12px;
+     font-family: 'Operator Mono';
+     
+ 
+     
+     
+ }
+ /* Success class by adding success */
+
+ .input-box.success .input{
+    border: 2px solid green;
+ }
+ .input-box.success  .error-try small{
+ 
+    display: none;
+
+
+    
+    
+}
+
+.errorlg{
+	color: #FF0000;
+}
+
+
+ /* login */
+
+ .sign.lg
+ {
+     margin-bottom: 40px;
+ }
+.login{
+    padding-top: 200px;
+}
